@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.825 s <<< FAILURE! - in TestSuite
+blazeDemo.BlazeDemoLogin.checkWelcomeMessage  Time elapsed: 2.789 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: Boston != Paris expected [Boston] but found [Paris]
+	at blazeDemo.BlazeDemoLogin.checkWelcomeMessage(BlazeDemoLogin.java:42)
+
+blazeDemo.BlazeDemoLogin.checkDescendingOrderInDestinationDropdown  Time elapsed: 0.803 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: Rome != Buenos Aires expected [Rome] but found [Buenos Aires]
+	at blazeDemo.BlazeDemoLogin.checkDescendingOrderInDestinationDropdown(BlazeDemoLogin.java:56)
+
+blazeDemo.BlazeDemoLogin.checkFlightButtonDisabledWithoutDestinationAndDepartureFilled  Time elapsed: 0.578 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at blazeDemo.BlazeDemoLogin.checkFlightButtonDisabledWithoutDestinationAndDepartureFilled(BlazeDemoLogin.java:63)
+
